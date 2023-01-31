@@ -1,0 +1,277 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #303134;
+    background-position: center;
+    margin: 10px;
+}
+
+nav {
+    height: 35px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 8px;
+    border-bottom: 3px solid lightgrey;
+}
+
+.gmail {
+
+    text-decoration: none;
+    font-size: 18px;
+    color: lightgrey;
+    font-family: arial,sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.gmail:hover {
+
+    cursor: pointer;
+    background-color: lightseagreen;
+    
+}
+
+.drive {
+
+    text-decoration: none;
+    font-size: 18px;
+    color: lightgrey;
+    font-family: arial,sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.drive:hover {
+
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+
+.maps {
+
+    text-decoration: none;
+    font-size: 18px;
+    color: lightgrey;
+    font-family: arial,sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.maps:hover {
+
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+
+.icon {
+
+    width: 32px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+section {
+
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-icon {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 450px;
+    padding: 20px;  
+    margin-top: 10%;
+
+}
+
+
+.bdn {
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search {
+
+    text-align: left;
+    outline: none;
+    background-color: #303134;
+    color: white;
+    height: 45px;
+    border-radius: 25px;
+    border: 2px solid white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52em;
+    margin-right: 52em;
+    padding: 5px 8px 0 14px
+    
+}
+
+.botones {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.beg {
+
+    padding: 8px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 4px solid lightgrey;
+    background-color: lightgrey;
+    color: black;
+}
+
+.vats {
+
+    padding: 8px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 4px solid lightgrey;
+    background-color: lightgrey;
+    color: black;
+
+}
+
+article {
+
+    display: flex;
+    justify-content: center;
+    font-family: arial,sans-serif;
+    font-size: small;
+    color: lightgrey;
+    margin-top: 15px;
+}
+
+.lenguaje {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 8px;
+    color: lightseagreen;
+}
+
+.footer {
+
+    height: 1px;
+    width: 100%;
+    margin-top: 14%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+
+.sobre-google {
+
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.sobre-google:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.publicidad {
+
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.publicidad:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.negocios {
+
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.negocios:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cflb {
+
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.cflb:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.privacidad {
+
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.privacidad:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.condiciones {
+
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.condiciones:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.preferencias {
+
+    text-decoration: none;
+    color: lightgrey;  
+}
+
+.preferencias:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
